@@ -6,7 +6,7 @@ const useServices = () => {
 
     useEffect(() => {
 
-        fetch('https://secret-reef-44211.herokuapp.com/service')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setServices(data))
 
